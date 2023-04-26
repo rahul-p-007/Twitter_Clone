@@ -1,0 +1,31 @@
+.sidebar {
+  border-right: 1px solid var(--twitter-background);
+  flex: 0.3;
+  /* min-width: 250px; */
+  margin-top: 20px;
+  padding-inline: 20px;
+  text-decoration: none;
+}
+.sidebar__twitterIcon {
+  color: var(--twitter-color);
+  font-size: 30px !important;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+.SignOut:hover{
+  background-color: crimson;
+  border-radius: 30px;
+  color: var(--twitter-color);
+  transition: color 100ms ease-out;
+}
+.sidebar__tweet {
+  /* Using important keyword we are overriding the material ui css property */
+  background-color: var(--twitter-color) !important;
+  border: none !important;
+  color: white !important;
+  font-weight: 900 !important;
+  text-transform: inherit !important;
+  border-radius: 30px !important;
+  height: 50px !important;
+  margin-top: 20px !important;
+}

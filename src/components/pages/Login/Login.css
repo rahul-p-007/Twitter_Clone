@@ -1,0 +1,39 @@
+.login {
+
+  height: 100vh;
+  background: url("https://images.pexels.com/photos/1097456/pexels-photo-1097456.jpeg?auto=compress&cs=tinysrgb&w=1600") center ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: grid;
+  place-items: center;
+  
+}
+
+.login__container {
+  padding: 100px;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.2);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 10px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+.login__container > img {
+  object-fit: contain;
+  height: 140px;
+  margin-bottom: 3px;
+}
+.login__container > button {
+  margin-top: 50px;
+  text-transform: inherit !important;
+  background-color: rgba(80, 183, 245,0.3) !important;
+  color: white;
+}
+.login__container > button:hover {
+  transition: 2s ease;
+  background-color: rgba(80, 183, 245,0.9) !important;
+
+}

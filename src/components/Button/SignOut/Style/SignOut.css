@@ -1,0 +1,25 @@
+.SignOUt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.SignOUt:hover {
+  background-color: #D70040;
+  border-radius: 30px;
+  color: white;
+  transition: 2s ease;
+}
+.SignOUt:hover >.MuiSvgIcon-root {
+ transition: 2s ease;   
+ color: white;
+}
+
+.SignOUt > .MuiSvgIcon-root {
+  padding: 20px;
+}
+
+.SignOUt > h2 {
+  font-weight: 800;
+  font-size: 20px;
+  margin-right: 20px;
+}
